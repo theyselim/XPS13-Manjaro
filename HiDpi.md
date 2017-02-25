@@ -11,17 +11,17 @@ Inject these 2 line above the end line exec $@ of file Xsession, so that it look
 
 ```
 # ...
-xrandr --dpi 200
+xrandr --dpi 180
 xrdb -merge ~/.Xresources
 # ...
 exec $@
 ```
-``Xft.dpi`` should be ``200`` in ``.Xresource``.
+``Xft.dpi`` should be ``180`` in ``~/.Xresources``.
 
 For greeting screen, edit /etc/lightdm/lightdm-gtk-greeter.conf:
 
 ```
-xft-dpi=200
+xft-dpi=180
 ```
 
 Then restart to apply these settings:
