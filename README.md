@@ -46,11 +46,7 @@ sudo gpasswd -a $USER input
 1. mv libinput-gestures.conf to /home/$USER/.config/
 1. Add auto-start exec to i3 config.
 
-```1. IMPORTANT: must be a member of the input group to have permission to read the touchpad device:
-
 ```zsh
-sudo gpasswd -a $USER input
-```
 exec --no-startup-id libinput-gestures
 ```
 
