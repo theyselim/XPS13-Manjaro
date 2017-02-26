@@ -6,6 +6,11 @@
 - manjaro-welcome
 - pywebkitgtk
 - webkitgtk2
+- i3status-manjaro
+- manjaro-browser-settings
+- manjaro-i3-settings
+- i3-help
+- dmenu-manjaro
 
 # Install:
 - veracrypt
@@ -17,3 +22,4 @@
 - rofi
 - ttf-google-fonts-git
 - xcursor-themes
+- i3blocks
