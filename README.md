@@ -7,6 +7,6 @@ Touchpad.md
 ## HiDpi Configuration
 HiDpi.md
 
-```
-xft.dpi = 200
-```
+
+# TODO
+- Add .conf files
