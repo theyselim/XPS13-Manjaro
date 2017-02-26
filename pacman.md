@@ -24,3 +24,4 @@
 - ttf-google-fonts-git
 - xcursor-themes
 - i3blocks
+- sublime-text-dev
