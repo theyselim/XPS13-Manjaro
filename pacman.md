@@ -11,6 +11,7 @@
 - manjaro-i3-settings
 - i3-help
 - dmenu-manjaro
+- volumeicon
 
 # Install:
 - veracrypt
