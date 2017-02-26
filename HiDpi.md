@@ -1,13 +1,13 @@
-```zsh
-lightdm --show-config
-```
+# Best dpi for QHD+ XPS
 
 ```
-[Seat:*]
-A  session-wrapper=/etc/lightdm/Xsession
+xft-dpi=180
 ```
 
-Inject these 2 line above the end line exec $@ of file Xsession, so that it looks like:
+## Login Screen & X (Using Lightdm)
+
+- Edit session-wrapper for lightdm. ``/etc/lightdm/Xsession``
+- Add the following 2 lines above end line ``exec $@``.
 
 ```
 # ...
@@ -16,16 +16,21 @@ xrdb -merge ~/.Xresources
 # ...
 exec $@
 ```
-``Xft.dpi`` should be ``180`` in ``~/.Xresources``.
-
-For greeting screen, edit /etc/lightdm/lightdm-gtk-greeter.conf:
-
-```
-xft-dpi=180
-```
-
-Then restart to apply these settings:
+- ``~/.Xresources`` should include ``Xft.dpi=180``.
+- For greeting screen, add ``xft-dpi=180`` in ``/etc/lightdm/lightdm-gtk-greeter.conf``.
+- Restart to apply:
 
 ```
 systemctl restart lightdm
 ```
+
+## Terminal Font and cursor
+
+ - Under ``~/.Xresources``:
+ 
+ ```
+ Xcursor.theme: whiteglass
+ Xcursor.size: 24
+
+ URxvt.font: xft:DejaVu Sans Mono:size=10
+ ```
