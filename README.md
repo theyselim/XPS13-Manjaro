@@ -13,3 +13,6 @@ HiDpi.md
 - Clean .i3/config
 - Fix rofi config
 - Clean .i3/i3blocks.conf
+
+
+/usr/share/conky_solarized, i3blocks.conf, i3/conf
