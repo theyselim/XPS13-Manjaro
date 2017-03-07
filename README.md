@@ -25,7 +25,8 @@ chsh -s /bin/zsh
 ```zsh 
 cd && sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-
+- Current theme: https://github.com/denysdovhan/spaceship-zsh-theme
+- Current ``terminal`` color scheme: 
 
 # TODO
 - Add .conf files
