@@ -7,6 +7,25 @@ Touchpad.md
 ## HiDpi Configuration
 HiDpi.md
 
+## Terminal Configuration (Zsh: oh-my-zsh)
+
+- Install zsh 
+
+```bash
+pacman -S zsh
+```
+- Set zsh as default terminal shell 
+
+```bash
+chsh -s /bin/zsh
+```
+
+- From Oh-my-zsh github: https://github.com/robbyrussell/oh-my-zsh
+
+```zsh 
+cd && sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
 
 # TODO
 - Add .conf files
