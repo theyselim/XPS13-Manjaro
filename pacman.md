@@ -1,7 +1,6 @@
 # Remove:
 
 - morc_menu
-- palemoon-bin
 - mime-types
 - manjaro-welcome
 - pywebkitgtk
@@ -14,7 +13,9 @@
 - volumeicon
 
 Safe to ``pacman -Rns``
+- palemoon-bin
 - gimp
+- moc
 
 # Install:
 - veracrypt
