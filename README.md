@@ -26,7 +26,7 @@ chsh -s /bin/zsh
 cd && sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 - Current theme: https://github.com/denysdovhan/spaceship-zsh-theme
-- Current ``terminal`` color scheme: 
+- Terminal color scheme and font are under .Xresources.
 
 # TODO
 - Add .conf files
