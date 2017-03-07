@@ -13,6 +13,9 @@
 - dmenu-manjaro
 - volumeicon
 
+Safe to ``pacman -Rns``
+- gimp
+
 # Install:
 - veracrypt
 - google-chrome
