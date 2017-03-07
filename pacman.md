@@ -25,3 +25,4 @@
 - xcursor-themes
 - i3blocks
 - sublime-text-dev
+- sshfs
