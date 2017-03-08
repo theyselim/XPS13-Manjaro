@@ -42,7 +42,7 @@ cd && sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-z
 ### Sublime Configuration
 - Install package control: https://packagecontrol.io/installation
 - Install base16 color scheme: https://github.com/chriskempson/base16-textmate
-- Set color scheme to tomorrow-night
+- Theme and color scheme: Spacegray Eighties (https://github.com/kkga/spacegray)
 - Plugins:
   - SublimeLinter
   - SublimeLinter-contrib-eslint_d
