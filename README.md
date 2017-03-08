@@ -49,5 +49,6 @@ cd && sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-z
   - SublimeLinter-pylint
   - SideBarEnhancements
   - Can I Use
+  - Babel
 
 
