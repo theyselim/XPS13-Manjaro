@@ -30,3 +30,4 @@ Safe to ``pacman -Rns``
 - i3blocks
 - sublime-text-dev
 - sshfs
+- openssh
