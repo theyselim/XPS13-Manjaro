@@ -31,3 +31,4 @@ Safe to ``pacman -Rns``
 - sublime-text-dev
 - sshfs
 - openssh
+- tig
