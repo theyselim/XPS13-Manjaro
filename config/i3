@@ -88,8 +88,8 @@ set $ws1 1:code
 set $ws2 2:terminal
 set $ws3 3
 set $ws4 4
-set $ws5 5:browser
-set $ws6 6:vp-chrome
+set $ws5 5:
+set $ws6 6:chrome
 set $ws7 7:firefox
 set $ws8 8
 
