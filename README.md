@@ -3,7 +3,7 @@
 
 # TODO
 - Add .conf files
-- Clean .i3/config
+- ~~Clean .i3/config~~
 - Fix rofi config
 - Clean .i3/i3blocks.conf
 - Disable Pc squeaky beep (PC speaker)  https://wiki.archlinux.org/index.php/PC_speaker
