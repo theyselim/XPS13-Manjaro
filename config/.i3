@@ -23,10 +23,7 @@ bindsym $mod+Return exec terminal
 bindsym $mod+Shift+x kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id dmenu_recency
-
-# launch categorized menu
-bindsym $mod+z exec --no-startup-id morc_menu
+bindsym $mod+space exec --no-startup-id rofi -show drun
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
@@ -71,9 +68,6 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
-# change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
-
 # focus the parent container
 bindsym $mod+a focus parent
 
@@ -89,7 +83,7 @@ set $ws2 2:terminal
 set $ws3 3
 set $ws4 4
 set $ws5 5:
-set $ws6 6:chrome
+set $ws6 6:vp-chrome
 set $ws7 7:firefox
 set $ws8 8
 
