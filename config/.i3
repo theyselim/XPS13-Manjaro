@@ -23,7 +23,7 @@ bindsym $mod+Return exec terminal
 bindsym $mod+Shift+x kill
 
 # start program launcher
-bindsym $mod+space exec --no-startup-id rofi -show drun
+bindsym $mod+space exec --no-startup-id rofi -show drun -fullscreen
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
